@@ -1,0 +1,20 @@
+ cd /opt/43_44_morning/darynaTsomenko
+ 1002  nano taskDARYNA.sh
+ 1003  ./taskDARYNA.sh
+ 1004  chmod +x ./taskDARYNA.sh
+ 1005  ./taskDARYNA.sh
+ 1006  nano taskDARYNA.sh
+ 1007  ./taskDARYNA.sh
+ 1008  ls -la
+ 1009  cat 9.txt
+ 1010  crontab -e
+ 1011  clear
+ 1012  history
+[ec2-user@ip-172-31-33-20 darynaTsomenko]$ history > HW6.txt
+[ec2-user@ip-172-31-33-20 darynaTsomenko]$ export_file/tmp.txt
+-bash: export_file/tmp.txt: No such file or directory
+[ec2-user@ip-172-31-33-20 darynaTsomenko]$ export_file/HW6.txt
+-bash: export_file/HW6.txt: No such file or directory
+[ec2-user@ip-172-31-33-20 darynaTsomenko]$ export_file HW6.txt
+-bash: export_file: command not found
+[ec2-user@ip-172-31-33-20 darynaTsomenko]$
